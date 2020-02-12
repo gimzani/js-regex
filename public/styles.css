@@ -1,0 +1,41 @@
+
+.regex-editor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.regex-editor-col {
+  padding: 10px;
+}
+
+.selectable {
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.checkboxLabel input {
+  margin-right: 0 5px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
