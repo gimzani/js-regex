@@ -22,5 +22,5 @@ npm start
 
 ## Build Application
 ```
-npm run build
+npm run electron:build
 ```
